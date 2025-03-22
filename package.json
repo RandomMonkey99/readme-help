@@ -1,0 +1,20 @@
+{
+  "name": "readme-help",
+  "displayName": "README help",
+  "description": "A extension that helps you writing a github readme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "md",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
