@@ -1,1 +1,13 @@
-{}
+{
+    "stats":{
+        "body": "![](https://github-readme-stats.vercel.app/api?username=${1:username}&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)",
+        "description": "Generates Vercell Github Stats"
+    },
+    "langs":{
+        "body": "![](https://github-readme-stats.vercel.app/api/top-langs/?username=${1:username}&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)",
+        "description": "Generates Vercell Languages Stats"
+    },
+    "profile":{
+        "body": "![](https://wsrv.nl/?url=avatars.githubusercontent.com/u/${1:userid}w=20&h=20)"
+    }
+}
